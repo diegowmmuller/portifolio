@@ -1,0 +1,48 @@
+.header {
+	background-color: #0c0c13;
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.lastName {
+	color: #5c3ed7;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.logo {
+	height: 60px;
+}
+
+.brand {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+}
+
+.navList {
+	display: flex;
+	gap: 18px;
+	list-style: none;
+}
+
+.navList a {
+	color: #fff;
+	text-decoration: none;
+	padding: 12px;
+	font-size: 1.5rem;
+}
+
+.navList a:hover {
+	border-bottom: 1px solid #632ab4;
+}

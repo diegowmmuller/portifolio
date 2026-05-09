@@ -1,0 +1,28 @@
+.iconContainer {
+	padding: 12px;
+	background-color: #12151b;
+	border: 1px solid #a855f72e;
+	box-shadow:
+		0 0 20px #a855f71f,
+		inset 0 0 12px #a855f70d;
+	backdrop-filter: blur(12px);
+	border-radius: 64px;
+}
+.iconContainer:hover {
+	transform: translateY(-4px);
+	cursor: pointer;
+	background-color: #181c24;
+
+	border-color: #a855f766;
+
+	box-shadow:
+		0 0 28px #a855f740,
+		inset 0 0 16px #a855f714;
+}
+
+.iconContainer,
+.iconContainer:visited,
+.iconContainer:active {
+	color: #a855f7;
+	text-decoration: none;
+}

@@ -1,0 +1,18 @@
+.button {
+	text-decoration: none;
+	font-size: 18px;
+	padding: 20px;
+	color: #ffffff;
+	border-radius: 16px;
+	background-color: #5933e7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	transition: filter 0.25s ease;
+}
+
+.button:hover {
+	filter: brightness(1.5);
+	transform: translateY(-2px);
+}
