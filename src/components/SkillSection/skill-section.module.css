@@ -1,14 +1,13 @@
 .container {
 	display: flex;
 	justify-content: space-between;
-	padding: 60px 0;
+	padding: 30px 0;
 	gap: 16px;
 }
 
 .skillsContainer {
 	display: flex;
 	flex-direction: column;
-	padding: 20px 0;
 }
 
 .sectionHeader {
@@ -16,6 +15,10 @@
 	align-items: center;
 	gap: 8px;
 	margin-bottom: 36px;
+}
+
+.sectionHeader h2 {
+	font-size: 30px;
 }
 
 .skillsContent {

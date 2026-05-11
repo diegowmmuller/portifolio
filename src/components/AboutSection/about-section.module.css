@@ -3,7 +3,7 @@
 	display: flex;
 	backdrop-filter: blur(10px);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-	padding: 60px 0;
+	padding: 24px 0;
 }
 
 .aboutContent {
@@ -14,10 +14,15 @@
 	align-items: flex-start;
 }
 
+.icon {
+	margin-left: 14px;
+}
+
 .aboutParagraph {
 	padding: 0 24px;
 	line-height: 135%;
 	font-size: 18px;
+	text-align: justify;
 }
 
 .infoContent {

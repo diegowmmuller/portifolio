@@ -6,7 +6,7 @@ export const AboutSection = () => {
 		<section id="about" className={styles.container}>
 			<div className={styles.aboutContent}>
 				<div className={styles.iconWrapper}>
-					<div>
+					<div className={styles.icon}>
 						<UserIcon size={32} color="#6144cc" />
 					</div>
 					<div>
