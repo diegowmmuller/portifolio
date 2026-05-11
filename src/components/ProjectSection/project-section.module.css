@@ -1,3 +1,9 @@
+.container {
+	padding: 60px 0;
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
 .sectionHeader {
 	display: flex;
 	justify-content: space-between;

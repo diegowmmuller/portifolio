@@ -3,7 +3,7 @@ import styles from './about-section.module.css';
 
 export const AboutSection = () => {
 	return (
-		<section className={styles.container}>
+		<section id="about" className={styles.container}>
 			<div className={styles.aboutContent}>
 				<div className={styles.iconWrapper}>
 					<div>

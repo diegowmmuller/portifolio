@@ -6,7 +6,7 @@ import imgCardStudyDeck from '../../assets/studyDeck.jpeg';
 
 export const ProjectSection = () => {
 	return (
-		<section className={styles.container}>
+		<section id="projects" className={styles.container}>
 			<div className={styles.sectionHeader}>
 				<div className={styles.sectionBadge}>
 					<FolderIcon size={40} color="#a855f7" />
