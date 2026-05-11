@@ -6,6 +6,7 @@ import { AppLayout } from './Layout/AppLayout';
 import { AboutSection } from './components/AboutSection';
 import { ProjectSection } from './components/ProjectSection';
 import { SkillSection } from './components/SkillSection';
+import { Footer } from './components/Footer';
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<ProjectSection />
 				<SkillSection />
 			</MainContainer>
+			<Footer />
 		</AppLayout>
 	);
 }

@@ -25,10 +25,10 @@ export const Header = () => {
 							<a href="#projects">Projetos</a>
 						</li>
 						<li>
-							<a href="#">Habilidades</a>
+							<a href="#skills">Habilidades</a>
 						</li>
 						<li>
-							<a href="#">Contato</a>
+							<a href="https://wa.me/5548999990839">Contato</a>
 						</li>
 					</ul>
 				</nav>

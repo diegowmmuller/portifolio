@@ -12,10 +12,10 @@ import ts from '../../assets/ts.png';
 
 export const SkillSection = () => {
 	return (
-		<section className={styles.container}>
+		<section id="skills" className={styles.container}>
 			<div className={styles.skillsContainer}>
 				<div className={styles.sectionHeader}>
-					<TerminalIcon size={40} />
+					<TerminalIcon size={40} color="#a855f7" />
 					<h2>Habilidades</h2>
 				</div>
 
