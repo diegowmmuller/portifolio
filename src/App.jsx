@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { MainSection } from './components/MainSection';
 import { AppLayout } from './Layout/AppLayout';
 import { AboutSection } from './components/AboutSection';
+import { ProjectSection } from './components/ProjectSection';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<MainContainer>
 				<MainSection />
 				<AboutSection />
+				<ProjectSection />
 			</MainContainer>
 		</AppLayout>
 	);

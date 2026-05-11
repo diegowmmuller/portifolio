@@ -1,0 +1,29 @@
+.sectionHeader {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+.sectionBadge {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+
+.viewAll {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	color: #a855f7;
+	text-decoration: none;
+}
+
+.cardContainer {
+	display: grid;
+
+	grid-template-columns: repeat(2, 1fr);
+
+	gap: 12px;
+}
