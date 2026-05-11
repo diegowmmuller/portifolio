@@ -1,0 +1,51 @@
+.container {
+	background-color: #0c0e14;
+	display: flex;
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.aboutContent {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.aboutParagraph {
+	line-height: 135%;
+	font-size: 18px;
+}
+
+.infoContent {
+	width: 252px;
+}
+
+.infoLabel {
+	color: #6144cc;
+	font-weight: 700;
+	margin: 0;
+}
+
+.iconWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+
+.contactInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+
+.infoItem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+}

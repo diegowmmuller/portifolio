@@ -1,7 +1,7 @@
 import { CVButton } from '../CVButton';
 import styles from './main-section.module.css';
 import diegoImg from '../../assets/diego.png';
-import { GithubIcon, HtmlIcon, LinkedinIcon } from '../Icons';
+import { GithubIcon, HtmlIcon, LinkedinIcon, WhatsappIcon } from '../Icons';
 import { ContactButton } from '../ContactButton';
 import { SocialLink } from '../SocialLink';
 
@@ -32,6 +32,9 @@ export const MainSection = () => {
 					</SocialLink>
 					<SocialLink href="https://www.linkedin.com/in/diegowmmuller">
 						<LinkedinIcon />
+					</SocialLink>
+					<SocialLink href="https://wa.me/5548999990839">
+						<WhatsappIcon />
 					</SocialLink>
 				</div>
 			</div>
