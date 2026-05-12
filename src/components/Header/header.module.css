@@ -12,15 +12,10 @@
 	max-width: 1200px;
 }
 
-.lastName {
-	color: #5c3ed7;
-	font-optical-sizing: auto;
-	font-weight: 600;
-	font-style: normal;
-}
-
-.logo {
-	height: 60px;
+.topBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .brand {
@@ -28,6 +23,21 @@
 	justify-content: center;
 	align-items: center;
 	gap: 12px;
+}
+
+.logo {
+	height: 60px;
+}
+
+.lastName {
+	color: #5c3ed7;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.menuButton {
+	display: none;
 }
 
 .navList {
@@ -45,4 +55,75 @@
 
 .navList a:hover {
 	border-bottom: 1px solid #632ab4;
+}
+
+@media (max-width: 821px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+
+		width: 100%;
+
+		padding: 16px;
+		box-sizing: border-box;
+	}
+
+	.topBar {
+		display: flex;
+
+		justify-content: space-between;
+		align-items: center;
+
+		width: 100%;
+	}
+
+	.menuButton {
+		display: flex;
+
+		align-items: center;
+		justify-content: center;
+
+		background: transparent;
+		border: none;
+
+		color: white;
+
+		font-size: 2rem;
+
+		cursor: pointer;
+	}
+
+	.navList {
+		display: none;
+
+		flex-direction: column;
+
+		width: 100%;
+
+		gap: 12px;
+
+		margin-top: 20px;
+
+		padding: 0;
+
+		list-style: none;
+	}
+
+	.navList li {
+		width: 100%;
+	}
+
+	.navList a {
+		display: block;
+
+		width: 100%;
+
+		padding: 12px 0;
+
+		font-size: 1.2rem;
+	}
+
+	.open {
+		display: flex;
+	}
 }
